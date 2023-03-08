@@ -1,0 +1,99 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;1,400&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    background-color:#a5b1c2;
+    color: white;
+}
+
+input, button{
+    border: none;
+    outline: none;
+    appearance: none;
+    background: none;
+
+}
+ .header{
+    text-align: center;
+    margin-top: 30px;
+}
+.header h1{
+    font-size: 30px;
+
+}
+
+.header #todo-form{
+    margin-top: 10px;
+    margin-right: 10px;
+    text-align: center;
+    
+}
+
+#todo-input{
+    padding: 5px;
+    margin-left: 40px;
+    border-radius: 5px;
+    width: 500px;
+    background-color:#d1d8e0;
+    color:black;
+
+}
+#todo-submit{
+    padding: 10px;
+    cursor: pointer;
+    background-image: linear-gradient(to right,rgb(132, 0, 255),orange);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent;
+    
+
+}
+
+ .section{
+    margin-top: 70px;
+    margin-left: 470px;
+}
+
+.section h2{
+    font-size: 15px;
+}
+
+ #tasks .task{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.section .input-content{
+    padding: 8px;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 500px;
+    background-color:#d1d8e0 ;
+
+} 
+
+.buttom{
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.editbutton{
+
+    font-size: 15px;
+    cursor: pointer;
+    background-image: linear-gradient(to right,rgb(6, 2, 15),orange);
+    -webkit-background-clip: text;
+}
+
+.deletebutton{
+
+    color:  #e74c3c;
+    font-size:15px;
+    cursor: pointer;
+    -webkit-background-clip: text;
+}    
